@@ -1,0 +1,47 @@
+@import "../pages/App.scss";
+
+.menu__wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100vh;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1;
+	@include glassy;
+}
+
+.hamburger {
+	position: fixed;
+	top: 40px;
+	left: 40px;
+	cursor: pointer;
+	z-index: 2;
+	div {
+		width: 35px;
+		height: 5px;
+		margin: 6px 0;
+		border-radius: 10px;
+		background-color: #000;
+	}
+}
+
+.menu__container {
+	p {
+		text-align: center;
+		font-family: Syne;
+		font-size: 1.2rem;
+	}
+}
+
+.menu__socials {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	img {
+		width: 50px;
+	}
+}

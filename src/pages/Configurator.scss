@@ -1,0 +1,59 @@
+@import "App";
+
+.configurator__wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.left__side {
+	width: 66%;
+	margin: 0 1rem;
+	@media (max-width: 560px) {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+
+	h1 {
+		margin: 50px 0;
+	}
+}
+
+.board {
+	position: absolute;
+	width: 30%;
+	right: 0;
+	bottom: 50%;
+	transform: translateY(50%);
+	@include glassy;
+
+	img {
+		width: 50px;
+	}
+
+	@media (max-width: 560px) {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100vw;
+		min-height: 310px;
+		transform: translateY(0);
+		font-size: 0.8rem;
+	}
+}
+
+.configurator__body {
+	display: flex;
+}
+
+.engine__container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	@media (max-width: 560px) {
+		margin-bottom: 310px;
+	}
+}

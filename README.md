@@ -1,3 +1,9 @@
+# Car configurator: Stage 1
+
+## Stack: React.js, SCSS, Axios, react-router-dom
+
+A simple car configurator, in which all data is read from the API created by me. Technical parameters and prices are taken from the official brand configurators, in the first stage we can choose the engine version and in the future the project will be developed with new colors, animations and generation of purchase invoices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

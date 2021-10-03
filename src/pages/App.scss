@@ -1,0 +1,72 @@
+@mixin glassy {
+	background: rgba(255, 255, 255, 0.45);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	color: #000;
+}
+
+@mixin primary {
+	background-color: #333542;
+	color: #fcffff;
+}
+
+@mixin secondary {
+	background-color: #50525f;
+	color: #fcffff;
+}
+
+.container {
+	min-width: 66%;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	font-family: "DM Sans", sans-serif;
+	padding: 1rem 3rem;
+	margin: 0.5rem 1rem 0.5rem 0;
+	border-radius: 5px;
+	border: none;
+	background-color: #b1b3be;
+	color: #fff;
+	cursor: pointer;
+}
+
+.primary {
+	@include primary();
+}
+
+.secondary {
+	@include secondary();
+}
+
+.tetiary {
+	font-size: 1rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+h1 {
+	font-family: "Syne", sans-serif;
+	margin: 1rem 0;
+	font-size: 2rem;
+}
+
+p {
+	font-family: "DM Sans", sans-serif;
+	margin-bottom: 1rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 5px 20px;
+	li {
+		padding: 5px 0;
+	}
+}

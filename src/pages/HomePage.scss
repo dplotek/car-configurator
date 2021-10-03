@@ -1,0 +1,81 @@
+@import "App.scss";
+
+.wrapper {
+	width: 80vw;
+	min-height: 100vh;
+	max-width: 1400px;
+
+	@media (max-width: 907px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	@media (min-width: 908px) {
+		position: relative;
+	}
+}
+.wrapper__text {
+	z-index: 1;
+	padding: 50px;
+	@include glassy;
+
+	@media (max-width: 907px) {
+		text-align: center;
+		margin: 82px 0;
+	}
+
+	@media (min-width: 908px) {
+		position: absolute;
+		width: 45%;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.wrapper__img {
+	img {
+		width: 100%;
+	}
+
+	@media (max-width: 907px) {
+		width: 100%;
+		margin-bottom: 82px;
+	}
+
+	@media (min-width: 908px) {
+		position: absolute;
+		width: 60%;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	display: flex;
+	z-index: 2;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(9.5px);
+	-webkit-backdrop-filter: blur(9.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.social__container {
+	max-width: 1300px;
+	margin: 0 50px;
+
+	img {
+		width: 36px;
+		height: 36px;
+		margin: 20px;
+	}
+}
