@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/car-configurator/static/css/main.f566deb7.chunk.css",
+    "main.js": "/car-configurator/static/js/main.0d5f6d72.chunk.js",
+    "main.js.map": "/car-configurator/static/js/main.0d5f6d72.chunk.js.map",
+    "runtime-main.js": "/car-configurator/static/js/runtime-main.59c7e49a.js",
+    "runtime-main.js.map": "/car-configurator/static/js/runtime-main.59c7e49a.js.map",
+    "static/js/2.0548d908.chunk.js": "/car-configurator/static/js/2.0548d908.chunk.js",
+    "static/js/2.0548d908.chunk.js.map": "/car-configurator/static/js/2.0548d908.chunk.js.map",
+    "static/js/3.694193e2.chunk.js": "/car-configurator/static/js/3.694193e2.chunk.js",
+    "static/js/3.694193e2.chunk.js.map": "/car-configurator/static/js/3.694193e2.chunk.js.map",
+    "index.html": "/car-configurator/index.html",
+    "static/css/main.f566deb7.chunk.css.map": "/car-configurator/static/css/main.f566deb7.chunk.css.map",
+    "static/js/2.0548d908.chunk.js.LICENSE.txt": "/car-configurator/static/js/2.0548d908.chunk.js.LICENSE.txt",
+    "static/media/Homepage.93dc0e98.png": "/car-configurator/static/media/Homepage.93dc0e98.png",
+    "static/media/diesel-icon.ae7146f0.svg": "/car-configurator/static/media/diesel-icon.ae7146f0.svg",
+    "static/media/electric-icon.2d0dbf5f.svg": "/car-configurator/static/media/electric-icon.2d0dbf5f.svg",
+    "static/media/github.e0df113a.svg": "/car-configurator/static/media/github.e0df113a.svg",
+    "static/media/linkedin.7defd339.svg": "/car-configurator/static/media/linkedin.7defd339.svg",
+    "static/media/petrol-icon.57542a2c.svg": "/car-configurator/static/media/petrol-icon.57542a2c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59c7e49a.js",
+    "static/js/2.0548d908.chunk.js",
+    "static/css/main.f566deb7.chunk.css",
+    "static/js/main.0d5f6d72.chunk.js"
+  ]
+}
